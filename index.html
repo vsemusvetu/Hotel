@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HOTEL</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="header">
+    <div class="container header-container">
+      <img src="img/logo.png" alt="Логотип" class="header-logo">
+      <a href="tel:+74953225448" class="header-phone">+7 495 322 54 48</a>
+      <a href="#" class="personal">Личный кабинет</a>
+    </div>
+    <div class="container">
+      <div class="nav-bar-box">
+        <nav class="header-list">
+          <ul class="header-nav">
+            <li class="header-nav-list">О нас</li>
+            <li class="header-nav-list">Услуги</li>
+            <li class="header-nav-list">Преимущества</li>
+            <li class="header-nav-list">Размещение</li>
+            <li class="header-nav-list">Блог</li>
+            <li class="header-nav-list">Контакты</li>
+          </ul>
+        </nav>
+        <form class="search">
+          <input type="search" name="search" class="header-search" placeholder="Поиск">
+          <button class="search-btn"></button>
+        </form>
+      </div>
+    </div>
+  </header>
+  <section class="reserve">
+    <div class="container reserve-container">
+      <form class="fast-reserve" action="https://jsonplaceholder.typicode.com/posts" method="POST" autocomplete="on">
+        <h2 class="main-title reserve-title">Быстрая бронь</h2>
+        <input class="input-item" type="text" name="city" placeholder="Город">
+        <input class="input-item" type="text" name="number" placeholder="Категория номера">
+        <input class="input-item" type="text" name="date" placeholder="Дата заселения" onfocus="(this.type='date')"
+          onblur="(this.type='text')">
+        <input class="input-item" type="number" name="nights" placeholder="Количество ночей">
+        <input class="input-item" type="number" name="guests" placeholder="Количество гостей">
+        <button class="reserve-btn">Найти номер</button>
+        <span class="offers-lot">9 756</span> 
+        <span class="offers">предложений доступно</span>
+      </form>
+      <div class="special-offer">
+        <h2 class="main-title">Спецпредложение</h2>
+        <div class="special-img">
+          <h1 class="special-title">Номера категории люкс</h1>
+          <span class="price">от 5 000 р</span>
+          <span class="special-more">Подробнее</span>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="about">
+    <div class="container">
+      <article class="about-box">
+        <h2 class="about-title main-title">О нас</h2>
+        <p class="about-description">
+          Идейные соображения высшего порядка, а также сложившаяся структура организации влечет за собой процесс
+          внедрения
+          и модернизации системы обучения кадров, соответствует насущным потребностям. Идейные соображения высшего
+          порядка, а также дальнейшее развитие различных форм деятельности представляет собой интересный эксперимент
+          проверки системы обучения кадров, соответствует насущным потребностям. Равным образом сложившаяся структура
+          организации требуют определения и уточнения существенных финансовых и административных условий.
+        </p>
+      </article>
+      <article class="parent">
+        <h2 class="main-title service-title">Услуги</h2>
+        <div class="child">
+          <img src="img/service1.png" alt="" class="service-img">
+          <div class="about-service-title">Эксклюзивное обслуживание</div>
+          <div class="service-description">Равным образом постоянный количественный рост и сфера нашей активности</div>
+        </div>
+        <article class="right child">
+          <img src="img/service2.png" alt="" class="service-img">
+          <div class="about-service-title">Аренда банкетных залов</div>
+          <div class="service-description">Значимость этих проблем настолько очевидна, что дальнейшее развитие различных
+            форм.</div>
+        </article>
+        <article class="child">
+          <img src="img/service3.png" alt="" class="service-img">
+          <div class="about-service-title">Сауны, бассейны, бани, фитнес-залы</div>
+          <div class="service-description">Не следует, однако забывать, что начало повседневной работы по формированию
+          </div>
+        </article>
+        <article class="right child">
+          <img src="img/service4.png" alt="" class="service-img">
+          <div class="about-service-title">Охраняемые автомобильные стоянки</div>
+          <div class="service-description">Не следует, однако забывать, что начало повседневной работы по формированию
+          </div>
+        </article>
+      </article>
+    </div>
+  </section>
+  <section class="advantage">
+    <div class="container">
+      <h2 class="advantage-title main-title">Преимущества</h2>
+      <div class="advantage-card-box">
+        <div class="advantage-card first">
+          <img src="img/odds_1.svg" alt="" class="adventage-img">
+          <p class="advantage-description">
+            Идейные соображения высшего порядка, а также постоянный количественный рост
+          </p>
+        </div>
+        <div class="advantage-card">
+          <img src="img/odds_2.svg" alt="" class="adventage-img">
+          <p class="advantage-description">
+            Значимость этих проблем настолько очевидна, что вопрос остается открытым
+          </p>
+        </div>
+        <div class="advantage-card">
+          <img src="img/odds_3.svg" alt="" class="adventage-img">
+          <p class="advantage-description">
+            Таким образом реализация плановых заданий играет важную роль для понимания
+          </p>
+        </div>
+        <div class="advantage-card">
+          <img src="img/odds_4.svg" alt="" class="adventage-img">
+          <p class="advantage-description">
+            Повседневная практика показывает, что сложившаяся структура организации
+          </p>
+        </div>
+        <div class="advantage-card first">
+          <img src="img/odds_5.svg" alt="" class="adventage-img">
+          <p class="advantage-description">
+            Равным образом рамки и место обучения кадров способствует подготовки сотрудника
+          </p>
+        </div>
+        <div class="advantage-card">
+          <img src="img/odds_6.svg" alt="" class="adventage-img">
+          <p class="advantage-description">
+            Консультация с активом влечет за собой процесс внедрения услуг нашего сервиса
+          </p>
+        </div>
+        <div class="advantage-card">
+          <img src="img/odds_7.svg" alt="" class="adventage-img">
+          <p class="advantage-description">
+            Повседневная практика показывает, что дальнейшее развитие различных форм
+          </p>
+        </div>
+        <div class="advantage-card">
+          <img src="img/odds_8.svg" alt="" class="adventage-img">
+          <p class="advantage-description">
+            Значимость этого настолько очевидна, что консультация наших экспертов помогает
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="location">
+    <div class="container">
+      <h2 class="main-title location-title">Размещение</h2>
+      <div class="location-box">
+        <div class="location-card first">
+          <img src="img/hotel1.png" alt="Отель" class="location-img">
+          <div class="box-in-box">
+            <div class="location-description">
+              <p class="location-price"><span class="from">от</span> <span class="number-price">4 698 р /</span> ночь</p>
+              <p class="location-name">Lagoona española</p>
+              <p class="location-country">Барселона, Испания</p>
+            </div>
+            <div class="location-star">
+              <img src="img/star_gold.png" alt="Звезда" class="stars">
+              <img src="img/star_gold.png" alt="Звезда" class="stars">
+              <img src="img/star_gold.png" alt="Звезда" class="stars">
+              <img src="img/star_gold.png" alt="Звезда" class="stars">
+              <img src="img/star_white.png" alt="Звезда" class="stars">
+            </div>
+            <button type="submit" class="number-btn">Номера</button>
+          </div>
+        </div>
+        <div class="location-card">
+          <img src="img/hotel2.png" alt="Отель" class="location-img">
+          <div class="box-in-box">
+            <div class="location-description">
+              <p class="location-price"><span class="from">от</span> <span class="number-price">5 148 р /</span> ночь</p>
+              <p class="location-name">Lagoona son típicas</p>
+              <p class="location-country">Барселона, Испания</p>
+            </div>
+            <div class="location-star">
+              <img src="img/star_gold.png" alt="Звезда" class="stars">
+              <img src="img/star_gold.png" alt="Звезда" class="stars">
+              <img src="img/star_gold.png" alt="Звезда" class="stars">
+              <img src="img/star_gold.png" alt="Звезда" class="stars">
+              <img src="img/star_white.png" alt="Звезда" class="stars">
+            </div>
+            <button type="submit" class="number-btn">Номера</button>
+          </div>
+        </div>
+        <div class="location-card">
+          <img src="img/hotel3.png" alt="Отель" class="location-img">
+          <div class="box-in-box">
+            <div class="location-description">
+              <p class="location-price"><span class="from">от</span> <span class="number-price">6 254 р /</span> ночь</p>
+              <p class="location-name">Lagoona de la guerra</p>
+              <p class="location-country">Барселона, Испания</p>
+            </div>
+            <div class="location-star">
+              <img src="img/star_gold.png" alt="Звезда" class="stars">
+              <img src="img/star_gold.png" alt="Звезда" class="stars">
+              <img src="img/star_gold.png" alt="Звезда" class="stars">
+              <img src="img/star_gold.png" alt="Звезда" class="stars">
+              <img src="img/star_gold.png" alt="Звезда" class="stars">
+            </div>
+            <button type="submit" class="number-btn">Номера</button>
+          </div>
+        </div>
+        <div class="location-card first">
+          <img src="img/hotel4.png" alt="Отель" class="location-img">
+          <div class="box-in-box">
+            <div class="location-description">
+              <p class="location-price"><span class="from">от</span> <span class="number-price">6 320 р /</span> ночь</p>
+              <p class="location-name">Lagoona mentira piadosa</p>
+              <p class="location-country">Барселона, Испания</p>
+            </div>
+            <div class="location-star">
+              <img src="img/star_gold.png" alt="Звезда" class="stars">
+              <img src="img/star_gold.png" alt="Звезда" class="stars">
+              <img src="img/star_gold.png" alt="Звезда" class="stars">
+              <img src="img/star_gold.png" alt="Звезда" class="stars">
+              <img src="img/star_gold.png" alt="Звезда" class="stars">
+            </div>
+            <button type="submit" class="number-btn">Номера</button>
+          </div>
+        </div>
+        <div class="location-card">
+          <img src="img/hotel5.png" alt="Отель" class="location-img">
+          <div class="box-in-box">
+            <div class="location-description">
+              <p class="location-price"><span class="from">от</span> <span class="number-price">6 457 р /</span> ночь</p>
+              <p class="location-name">Lagoona empujar la creatividad</p>
+              <p class="location-country">Барселона, Испания</p>
+            </div>
+            <div class="location-star">
+              <img src="img/star_gold.png" alt="Звезда" class="stars">
+              <img src="img/star_gold.png" alt="Звезда" class="stars">
+              <img src="img/star_gold.png" alt="Звезда" class="stars">
+              <img src="img/star_gold.png" alt="Звезда" class="stars">
+              <img src="img/star_white.png" alt="Звезда" class="stars">
+            </div>
+            <button type="submit" class="number-btn">Номера</button>
+          </div>
+        </div>
+        <div class="location-card">
+          <img src="img/hotel6.png" alt="Отель" class="location-img">
+          <div class="box-in-box">
+            <div class="location-description">
+              <p class="location-price"><span class="from">от</span> <span class="number-price">6 490 р /</span> ночь</p>
+              <p class="location-name">Lagoona el retorno</p>
+              <p class="location-country">Барселона, Испания</p>
+            </div>
+            <div class="location-star">
+              <img src="img/star_gold.png" alt="Звезда" class="stars">
+              <img src="img/star_gold.png" alt="Звезда" class="stars">
+              <img src="img/star_gold.png" alt="Звезда" class="stars">
+              <img src="img/star_gold.png" alt="Звезда" class="stars">
+              <img src="img/star_white.png" alt="Звезда" class="stars">
+            </div>
+            <button type="submit" class="number-btn">Номера</button>
+          </div>
+        </div>
+        <div class="location-card first">
+          <img src="img/hotel7.png" alt="Отель" class="location-img">
+          <div class="box-in-box">
+            <div class="location-description">
+              <p class="location-price"><span class="from">от</span> <span class="number-price">6 505 р /</span> ночь</p>
+              <p class="location-name">Lagoona enfermo terminó</p>
+              <p class="location-country">Барселона, Испания</p>
+            </div>
+            <div class="location-star">
+              <img src="img/star_gold.png" alt="Звезда" class="stars">
+              <img src="img/star_gold.png" alt="Звезда" class="stars">
+              <img src="img/star_gold.png" alt="Звезда" class="stars">
+              <img src="img/star_gold.png" alt="Звезда" class="stars">
+              <img src="img/star_gold.png" alt="Звезда" class="stars">
+            </div>
+            <button type="submit" class="number-btn">Номера</button>
+          </div>
+        </div>
+        <div class="location-card">
+          <img src="img/hotel8.png" alt="Отель" class="location-img">
+          <div class="box-in-box">
+            <div class="location-description">
+              <p class="location-price"><span class="from">от</span> <span class="number-price">6 824 р /</span> ночь</p>
+              <p class="location-name">Lagoona suerte siguió siempre</p>
+              <p class="location-country">Барселона, Испания</p>
+            </div>
+            <div class="location-star">
+              <img src="img/star_gold.png" alt="Звезда" class="stars">
+              <img src="img/star_gold.png" alt="Звезда" class="stars">
+              <img src="img/star_gold.png" alt="Звезда" class="stars">
+              <img src="img/star_gold.png" alt="Звезда" class="stars">
+              <img src="img/star_white.png" alt="Звезда" class="stars">
+            </div>
+            <button type="submit" class="number-btn">Номера</button>
+          </div>
+        </div>
+        <div class="location-card last-card">
+          <p class="view-all">Посмотреть все варианты</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="form-section">
+    <div class="container">
+      <article class="contacts">
+        <h2 class="main-title contacts-title">Контакты</h2>
+        <address>Москва, улица Юности, дом 5 строение 4, офис 2</address>
+        <p><a href="tel:+7 (495) 123-45-67">+7 (499) 535-64-34 +7 (495) 005-05-44</a></p>
+        <p><a href="mailto:info@site.com">lg.oona@mail.ru по вопросам бронирования hotels.ln@mail.ru по вопросам сотрудничества</a></p>
+        
+      </article>
+      <article class="send">
+        <h2 class="main-title send-title">Напишите нам</h2>
+      </article>
+    </div>
+  </section>
+</body>
+function sendAjaxForm(form, url) {
+$.ajax({
+url: url = '../send.php', //url страницы (send.php)
+type: "POST", //метод отправки
+dataType: "html", //формат данных
+data: form.serialize(), // Сеарилизуем объекты формы
+success: function (response) { //Данные отправлены успешно
+//Ваш код если успешно отправлено
+alert('Успешно отправлено!');
+},
+error: function (response) { // Данные не отправлены
+
+//Ваш код если ошибка
+alert('Ошибка отправления');
+}
+});
+}
+</html>
